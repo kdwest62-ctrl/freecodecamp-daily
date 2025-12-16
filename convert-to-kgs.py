@@ -1,4 +1,4 @@
-def convert_to_kgs (lbs):
+def convert_to_kgs(lbs):
     kgs = round((lbs * 0.453592), 2)
     if lbs == 1 and kgs !=1:
         return f"{lbs} pound equals to {kgs} kilograms."
